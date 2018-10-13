@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name ="color2">#d90ee0</color>
+    <color name="listbg1">#f6b197</color>
+    <color name="listbg2">#f5948d</color>
+    <color name="listbg3">#f47382</color>
+    <color name="listbg4">#db7083</color>
+    <color name="listbg5">#be6d84</color>
+    <color name="listbg6">#97657f</color>
+    <color name="listbg7">#6c5c7a</color>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.iashwin28.speech.Login_2">
+
+    <EditText
+        android:id="@+id/textnameedit"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:background="@drawable/username"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="139dp"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/textpassword"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/textpassword"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:textColor="@color/white"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:background="@drawable/password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="233dp"
+        android:layout_above="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="149dp"
+        android:onClick="login"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/signup"
+        android:text="Login"
+        android:textColor="@color/white"
+         />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        app:srcCompat="@drawable/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp" />
+</RelativeLayout>

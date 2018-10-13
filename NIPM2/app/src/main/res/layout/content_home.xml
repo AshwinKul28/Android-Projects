@@ -1,0 +1,62 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/homebg">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/back"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/nipmback"
+        android:alpha="0.80"
+        android:scaleType="fitXY"
+        android:layout_marginTop="40sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="National Institute of Personnel Management"
+        android:id="@+id/titlecse"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:textStyle="normal|bold"
+        android:gravity="center_horizontal"
+        android:fontFamily="sans-serif-smallcaps" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/back"
+        android:padding="16dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:id="@+id/bodycse"
+            android:textSize="26sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="monospace">
+
+
+        </TextView>
+
+    </ScrollView>
+
+
+</RelativeLayout>

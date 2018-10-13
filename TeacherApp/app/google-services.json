@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "763402820629",
+    "firebase_url": "https://teacher-cse.firebaseio.com",
+    "project_id": "teacher-cse",
+    "storage_bucket": "teacher-cse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763402820629:android:a776bfad2ff3fabf",
+        "android_client_info": {
+          "package_name": "com.example.rugved.teacherapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763402820629-uhsl0j62qav62774sosqrkh0veo34sug.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rugved.teacherapp",
+            "certificate_hash": "6F2DD2F049CB2B48DEC6247F3A450049A6F547F3"
+          }
+        },
+        {
+          "client_id": "763402820629-tlas41fq2e6j0bu8u69bpfau5glurtuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl3iBEmgWaFvY4L2uXXn3d6docH7em8mA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763402820629-tlas41fq2e6j0bu8u69bpfau5glurtuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

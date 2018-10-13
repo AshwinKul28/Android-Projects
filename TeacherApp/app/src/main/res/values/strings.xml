@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TeacherApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_notification">Notification</string>
+    <string name="title_activity_edit_details">EditDetails</string>
+    <string name="title_activity_timeline">Timeline</string>
+</resources>

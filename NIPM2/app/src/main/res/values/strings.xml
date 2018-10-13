@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NIPM</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_upcoming">Upcoming</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_nipmawb">NIPMAWB</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_niomawb">NIOMAWB</string>
+    <string name="title_activity_event_description">EventDescription</string>
+    <string name="title_activity_past">Past</string>
+    <string name="title_activity_articles">Articles</string>
+    <string name="title_activity_article_display">ArticleDisplay</string>
+    <string name="title_activity_whats_new">Whats_new</string>
+    <string name="title_activity_new">New</string>
+    <string name="title_activity_document">Document</string>
+</resources>

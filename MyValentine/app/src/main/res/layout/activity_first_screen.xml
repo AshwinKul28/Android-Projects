@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/RL2"
+    android:layout_height="match_parent"
+    tools:context="com.iashwin28.myvalentine.FirstScreen">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="5sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:letterSpacing="0.08"
+        android:lineSpacingMultiplier="1.3"
+        android:id="@+id/textmsg"
+        android:layout_below="@+id/slider"
+        android:text="See our memories and remind those moments :). I hope you are smiling now ;). Now after seeing all images"/>
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:padding="12dp"
+        android:background="@drawable/signup_btn_transp"
+        android:textColor="#fff"
+        android:text="Click to Message HIM..."
+        android:layout_below="@+id/textmsg"
+        android:layout_centerHorizontal="true"
+        android:onClick="message"/>
+
+
+
+</RelativeLayout>

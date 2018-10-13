@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context="com.iashwin28.speech.Login_activity">
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:background="@drawable/username"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="93dp"
+        android:layout_marginBottom="42dp"
+        android:layout_above="@+id/password"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:textColor="@color/white"
+        android:background="@drawable/password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="195dp"
+        android:layout_above="@+id/yeartext"
+        android:layout_alignStart="@+id/yeartext"
+        android:layout_marginBottom="34dp" />
+
+    <EditText
+        android:id="@+id/yeartext"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:ems="10"
+        android:paddingLeft="20sp"
+        android:paddingTop="5sp"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:background="@drawable/age"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="302dp"
+        android:layout_above="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:onClick="sendsignup"
+        android:text="Signup"
+        android:textColor="@color/white"
+        android:background="@drawable/signup"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:onClick="directsignin"
+        android:textColor="@color/white"
+        android:text="Already a user Login here!"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300sp"
+        android:layout_height="80sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        app:srcCompat="@drawable/title" />
+
+</RelativeLayout>

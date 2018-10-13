@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtSpeechInput"
+        android:layout_width="280sp"
+        android:layout_height="150sp"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:paddingLeft="20sp"
+        android:hint="For more comfort tap on the mic... For better accuracy edit the data :)"
+        android:textColorHint="@color/grey"
+        android:paddingTop="15sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="5sp"
+        android:background="@drawable/inputinfo"
+        android:textStyle="normal"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:onClick="sendtext"
+        android:text="Send"
+        android:textColor="@color/white"
+        android:background="@drawable/signup"
+        android:layout_marginBottom="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+
+        android:background="@drawable/mic"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/txtSpeechInput"
+        android:layout_centerHorizontal="true" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250sp"
+        android:layout_height="180sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/doctor" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text='"To enjoy the glow of good health you must excersice"'
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="23dp"
+        android:layout_below="@+id/btnSpeak"
+        android:layout_alignStart="@+id/button" />
+
+
+</RelativeLayout>

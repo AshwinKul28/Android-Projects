@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_document"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.syscort.nipm.Document"
+    tools:showIn="@layout/activity_document">
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+
+        <!--android:id="@+id/textView"-->
+        <!--android:textStyle="normal|bold"-->
+        <!--android:text="PDF Files"-->
+        <!--android:textSize="25sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="1. Enrollment Campaign 2017 (Click here)"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/textView"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:id="@+id/enroll"-->
+        <!--android:textSize="17sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="2. Case Study (Click here)"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/enroll"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:id="@+id/cases"-->
+        <!--android:textSize="17sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="3. Generation Y (Click here)"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/cases"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:id="@+id/gen"-->
+        <!--android:textSize="17sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="4. Company Profile White Globe (Click here)"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/gen"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:id="@+id/company"-->
+        <!--android:textSize="17sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="5. EPFO INITIATIVES (Click here)"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/company"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:id="@+id/epfo"-->
+        <!--android:textSize="17sp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="20sp"-->
+        <!--android:layout_below="@+id/epfo"-->
+        <!--android:id="@+id/docs"-->
+        <!--android:textStyle="normal|bold"-->
+        <!--android:text="DOCUMENTS"-->
+        <!--android:textSize="25sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="1. Vivekanand Student Chapter PPT (Click here)"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/docs"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:id="@+id/vivek"-->
+        <!--android:textSize="17sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="2. ISF Services Profile Document (Click here)"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/vivek"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:id="@+id/isf"-->
+        <!--android:textSize="17sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="3. NIPM Aurnagabd Chapter - History Till Date (Click here)"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/isf"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:id="@+id/history"-->
+        <!--android:textSize="17sp" />-->
+
+    <!--<TextView-->
+        <!--android:text="4. Membership (Click here)"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/history"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--android:id="@+id/member"-->
+        <!--android:textSize="17sp" />-->
+
+    <WebView
+        android:id="@+id/web_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/progressBar3" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="67dp"
+        android:id="@+id/progressBar3" />
+
+
+
+</RelativeLayout>

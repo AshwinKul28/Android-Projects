@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="gomain"
+    tools:context="com.iashwin28.emobility.Login">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250sp"
+        android:layout_height="60sp"
+        android:layout_marginBottom="190dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginStart="67dp"
+        android:background="@mipmap/button_sign_in"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:onClick="gomain"
+        android:text="Login"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginStart="151dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@mipmap/plug_icon" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginStart="99dp"
+        android:fontFamily="@font/josefin_sans_bold"
+        android:text="Welcome to XYZ"
+        android:textColor="#00f6bc"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

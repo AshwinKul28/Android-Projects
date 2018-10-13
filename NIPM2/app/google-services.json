@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "981350440224",
+    "firebase_url": "https://nipm-ed75b.firebaseio.com",
+    "project_id": "nipm-ed75b",
+    "storage_bucket": "nipm-ed75b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981350440224:android:6aa142ae90f24a86",
+        "android_client_info": {
+          "package_name": "com.iashwin28.nipm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981350440224-vs9q6truooifgdu4jmj43u5oinclakcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGQWcMhVh5zfziA4T0W05lmNFrVAlx0gw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981350440224:android:3c72900ac93652c0",
+        "android_client_info": {
+          "package_name": "com.syscort.nipm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981350440224-vs9q6truooifgdu4jmj43u5oinclakcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGQWcMhVh5zfziA4T0W05lmNFrVAlx0gw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background8"
+    tools:context="com.iashwin28.speech.ReportActivity">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/reportgif"
+        android:layout_width="340sp"
+        android:layout_height="220sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/type" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_below="@+id/reportgif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/emailbox"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:hint="Tap to write patient Email ID"
+        android:paddingBottom="5sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:paddingTop="25sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14dp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/phonebox"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:hint="Tap to write patient Phone No"
+        android:paddingBottom="5sp"
+        android:paddingLeft="20sp"
+        android:paddingRight="20sp"
+        android:paddingTop="25sp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="14dp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:text='"To enjoy the glow of good health you must excersice"'
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250sp"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:background="@drawable/signup"
+        android:fontFamily="@font/josefin_sans_semibold"
+        android:onClick="create_report"
+        android:text="Generate Report"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

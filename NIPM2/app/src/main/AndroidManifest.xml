@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.syscort.nipm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/nipmlogo"
+        android:label="NIPM"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <activity
+            android:name=".MainActivity"
+            android:label="NIPM Aurangabad"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gallery"
+            android:label="@string/title_activity_gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Events"
+            android:label="@string/title_activity_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Upcoming"
+            android:label="Upcoming Events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/AppTheme1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NIOMAWB"
+            android:label="Aurangabad Chapter"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventDescription"
+            android:label="Event Description"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Past"
+            android:label="Past Events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Articles"
+            android:label="@string/title_activity_articles"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArticleDisplay"
+            android:label="Article Description"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Whats_new"
+            android:label="What&apos;s New"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".New"
+            android:label="What&apos;s New"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Document"
+            android:label="Knowledge Bank"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Signup"
+            android:windowSoftInputMode="stateHidden|adjustPan"
+            android:theme="@style/Logintheme">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "249961958872",
+    "firebase_url": "https://emobility-d3ffd.firebaseio.com",
+    "project_id": "emobility-d3ffd",
+    "storage_bucket": "emobility-d3ffd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249961958872:android:b60bc9de3e27b45a",
+        "android_client_info": {
+          "package_name": "com.iashwin28.emobility"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249961958872-cmbiul6to4phpi6gp6qf7ji1p0rtok6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iashwin28.emobility",
+            "certificate_hash": "aba77204641bc12411f8f82c789559efb1858e4e"
+          }
+        },
+        {
+          "client_id": "249961958872-ad2us6ioam60mm2gavikgfhfj5bmk1a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbTgZ8shEEXaOVFs1xbJ-C6bWiN6k53sE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249961958872-ad2us6ioam60mm2gavikgfhfj5bmk1a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

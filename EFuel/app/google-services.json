@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "952244132997",
+    "firebase_url": "https://efuel-212609.firebaseio.com",
+    "project_id": "efuel-212609",
+    "storage_bucket": "efuel-212609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952244132997:android:9cb37089d3ec2435",
+        "android_client_info": {
+          "package_name": "com.iashwin28.e_fuel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952244132997-goapcl0tauf8aro0t4keo6v0o2pc3n3d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iashwin28.e_fuel",
+            "certificate_hash": "aba77204641bc12411f8f82c789559efb1858e4e"
+          }
+        },
+        {
+          "client_id": "952244132997-7sfigescredfeqavnb5ok7jbursuu19j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr4xVf8hw58nD6hiqsCJ1hd1jmNqft26o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952244132997-7sfigescredfeqavnb5ok7jbursuu19j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/RL"
+    android:layout_height="match_parent"
+    tools:context="com.iashwin28.myvalentine.MainActivity">
+
+
+
+    <TextView
+
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginTop="200sp"
+        android:id="@+id/textview1"
+        android:text="Hello Kirti! This is a special day, so make it more special..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:letterSpacing="0.08"
+        android:lineSpacingMultiplier="1.3"
+
+        android:textColor="#fff"
+        android:textSize="14sp"
+        />
+
+
+
+    <EditText android:id="@+id/input_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textColorHint="#6affffff"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+
+        android:hint="See the notification"
+        android:theme="@style/myEdittexttheme"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/textview1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:padding="12dp"
+        android:background="@drawable/signup_btn_transp"
+        android:textColor="#fff"
+        android:text="Lets Begin the journey"
+        android:layout_below="@+id/input_pass"
+        android:layout_centerHorizontal="true"
+        android:onClick="start"/>
+
+
+</RelativeLayout>

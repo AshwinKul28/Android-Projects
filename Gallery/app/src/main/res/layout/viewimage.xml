@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/fullimage"
+        android:scaleType="centerInside"
+
+        android:padding="1dp"
+        android:maxHeight="300dp"
+        android:maxWidth="300dp"
+        android:minHeight="50dp"
+        android:minWidth="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/imagename"
+        android:layout_marginTop="10dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Original"
+        android:id="@+id/button"
+        android:onClick="onoriginalClick"
+        android:layout_alignTop="@+id/effect"
+        android:layout_alignRight="@+id/fullimage"
+        android:layout_alignEnd="@+id/fullimage" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Effect"
+        android:id="@+id/effect"
+        android:onClick="onefectclicked"
+        android:nestedScrollingEnabled="true"
+        android:layout_marginBottom="40dp"
+        android:layout_alignBottom="@+id/fullimage"
+        android:layout_alignLeft="@+id/fullimage"
+        android:layout_alignStart="@+id/fullimage" />
+
+</RelativeLayout>

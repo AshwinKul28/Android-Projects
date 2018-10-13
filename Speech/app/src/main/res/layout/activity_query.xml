@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iashwin28.speech.ActivityQuery"
+    android:background="@drawable/background6">
+
+
+    <EditText
+        android:id="@+id/question"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:paddingLeft="20sp"
+        android:hint="To ask a query tap on the mic..."
+        android:textColorHint="@color/grey"
+        android:paddingTop="15sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="5sp"
+        android:background="@drawable/query"
+        android:textStyle="normal"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="300sp"
+        android:layout_height="60sp"
+        android:textColor="@color/white"
+        android:textSize="14dp"
+        android:paddingLeft="20sp"
+        android:hint="To ask a query tap on the mic..."
+        android:textColorHint="@color/grey"
+        android:paddingTop="15sp"
+        android:paddingRight="20sp"
+        android:paddingBottom="5sp"
+        android:background="@drawable/answer"
+        android:textStyle="normal"
+        android:layout_marginTop="27dp"
+        android:layout_below="@+id/question"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:onClick="sendtext"
+        android:layout_marginLeft="20sp"
+        android:text="Ask a Query"
+        android:textColor="@color/white"
+        android:background="@drawable/signup"
+        android:layout_marginBottom="21dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/btnSpeak" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:layout_marginEnd="20sp"
+        android:onClick="reportgenerate"
+        android:text="Generate a Report"
+        android:textColor="@color/white"
+        android:background="@drawable/signup"
+        android:layout_below="@+id/textView5"
+        android:layout_toEndOf="@+id/btnSpeak" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+
+        android:background="@drawable/mic"
+        android:layout_below="@+id/answer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250sp"
+        android:layout_height="180sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/yoga" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text='"To enjoy the glow of good health you must excersice"'
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp" />
+
+</RelativeLayout>
